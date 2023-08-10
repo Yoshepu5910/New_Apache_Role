@@ -1,0 +1,7 @@
+---
+# handlers file for apache
+# handlers file for postgresql
+- name: Restart Apache
+  ansible.builtin.service:
+    name: httpd 
+    state: restarted
